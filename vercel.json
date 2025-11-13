@@ -1,8 +1,7 @@
 {
-  "version": 2,
   "functions": {
-    "api/split.js": {
-      "runtime": "nodejs@18"
+    "api/**/*.js": {
+      "runtime": "nodejs20.x"
     }
   }
 }
